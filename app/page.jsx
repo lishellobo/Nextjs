@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@/components/Button'
 
 const Page = () => {
   return (
@@ -20,6 +21,7 @@ const Page = () => {
       <p className="mt-6 text-lg text-center text-white bg-gray-800 bg-opacity-70 p-4 rounded-md shadow-lg hover:bg-opacity-90">
       Technically, I have learned CSS, JavaScript, C++, Python, C, a bit of PHP, SQL, Linux customization, and some concepts of DSA. Beyond technical skills, I've learned to be kind, manage tha ings independently, and not mind what others think.
       </p>
+      <Button/>
     </div>
   );
 };

@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   const itemStyle = {
-    marginRight: '20px', // Space between items
+    marginRight: '20px', 
   };
 
   const linkStyle = {
