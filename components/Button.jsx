@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({ onClick, children, className }) => {
   return (
-    <>
-      <button className="bg-green-400 rounded text-white hover:scale-110 px-5 py-2">
-        Button
-      </button>
-    </>
+    <button
+      onClick={onClick}
+      className={`bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 ${className}`}
+    >
+      {children}
+    </button>
   );
 };
 
